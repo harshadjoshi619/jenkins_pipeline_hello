@@ -16,3 +16,13 @@ node {
         echo "deploying"
     }
 }
+node {
+    stage('deploy to prod'){
+        echo "deploying on prod"
+    }
+}
+node {
+    stage('deploy to prodfinal'){
+        echo"deploying on prod final"
+    }
+}
